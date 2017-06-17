@@ -1,0 +1,129 @@
+.Login{
+    width: 75%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+}
+
+.Login__Column:last-child{
+    width:45%;
+}
+
+.Login__Section{
+    background-color: white;
+    border:1px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.Login__Section:first-child{
+    margin-top:50px;
+    padding:30px 40px;
+}
+
+.Login__Form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Login__Input{
+    width: 100%;
+    padding:7px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:1px solid #efefef;
+    box-sizing: border-box;
+}
+
+.Login__Input:focus{
+    outline: none;
+    border-color:#b2b2b2;
+}
+
+.Login__Input[name="username"]{
+    margin-bottom: 5px;
+}
+
+.Login__Input[type="password"]{
+    margin-bottom: 10px;
+}
+
+.Login__Form-Link{
+    position: absolute;
+    top:10px;
+    right:10px;
+    font-size: 13px;
+}
+
+.Login__Input--Blue{
+    background-color: #3897F0;
+    color:white;
+    font-weight: 600;
+    border:0;
+}
+
+.Login__Input--Blue:focus{
+    border:0;
+}
+
+
+.Login__Form-Divider{
+    margin:20px 0;
+    text-transform: uppercase;
+    color:#b2b2b2;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.Login__Form-Divider:before{
+    content:'';
+    width: 40%;
+    height: 1px;
+    background-color: #b2b2b2;
+    position: absolute;
+    left:0;
+    top:4.5px;
+}
+
+.Login__Form-Divider:after{
+    content:'';
+    width: 40%;
+    height: 1px;
+    background-color: #b2b2b2;
+    position: absolute;
+    right:0;
+    top:4.5px;
+}
+
+.Login__Fb-Link{
+    color:#385185;
+}
+
+.Login__Text{
+    align-items: center;
+}
+
+.Login__Section-donthave{
+    flex-direction: row;
+}
+
+
+.Login__App-stores{
+    display: flex;
+    width: 100%;
+    height: 50px;
+/*    justify-content: center;*/
+    justify-content: space-between;
+}
+.Login__App-store{
+    height: 50px;
+    cursor: pointer;
+}

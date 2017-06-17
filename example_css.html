@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Box Model</title>
+
+	<style>
+		html{
+			height: 20000px;
+		}
+		body{
+			background-color: green;
+			top: 90px;
+			margin: 0;
+		}
+		header{
+			background-color: red;
+			width: 100%;
+			height: 90px;
+			position: fixed;
+		}
+		.Feed{
+			top: 90px;
+			justify-content: center;
+			align-items: center;
+		}
+		.Photo{
+			top: 90px;
+			background-color: yellow;
+			width: 500px;
+			height: 500px;
+		}
+		.User{
+			top: 90px;
+			background-color: brown;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+		}
+		.Name{
+  			background-color: blue;
+			width: 100%;
+			height: 80px;
+			/*position: relative;*/
+		}
+	</style>
+</head>
+<body>
+	<header></header>
+	<div class="Feed">
+		<div class="Photo">
+			<div class="User"></div>
+			<div class="Name"></div>
+		</div>
+	</div>
+</body>
+</html>

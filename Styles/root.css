@@ -1,11 +1,5 @@
-.Login_App-store{
-	width: 150px; height: 45px;
-}
-
-.profile_image{
-	width: 100px; height: 100px;	
-}
-
-.Feed_Image{
-	width: 450px; height: 337px;	
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import 'reset.css';
+@import 'globals.css';
+@import 'login.css';
+@import 'footer.css';

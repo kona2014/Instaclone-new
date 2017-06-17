@@ -6,63 +6,111 @@
 		<link rel="stylesheet" href="Styles/root.css">
 	</head>
 	<body>
-	<main class="LogIn">
-		<div class="LogIn_Column">
-			<img class="LogIn_Phone_image" src="img_login_phone.PNG"/>
-		</div>
-		<section class="LogIn_Column">
-			<div class="Login_Section">
-				<img class="LogIn_logo_image" src="img_login_logo.PNG"/>
-				<form class="LogIn_Form" method="POST" action="feed.html">
-					<input type="text" placeholder="User Name" required class="LogIn_Input" />				
-					<input type="Password" placeholder="Password" required class="LogIn_Input" />
-					<a class="Login_form_link" href="http://www.google.com">Forgot?</a>
-					<input type="submit" value="Log In" class="LogIn_Input_button" />
-				</form>
-				<span class="Login_form_div">or</span>
-				<a href="http://www.facebook.com" class="Login_FB_Link"><i class="fa fa-facebook-official" aria-hidden="true"></i>Log In with Facebook</a>
+		<main class="Login">
+	<!-- Left Phone Image	 -->
+			<div class="Login__Column">
+				<img class="Login_Phone_image" src="img_login_phone.PNG"/>
 			</div>
-			<div class="Login_Section">
-				<span class="Login_text">Don't have an account?</span>
-				<a href="#" class="Login_Link">Sign Up</a>
-			</div>
-			<div class="Login_Section Login_Section-transparent">
-				<span class="Login_text">Get the app.</span>
-				<DIV class="Login_App-store">
-					<img class="Login_App-store" src="LOGIN_AND.PNG"/>
-					<img class="Login_App-store" src="LOGIN_IOS.PNG"/>
-					<img class="Login_App-store" src="LOGIN_MS.PNG"/>
+	<!-- Right Login Column -->
+			<section class="Login__Column">
+				<div class="Login__Section">
+				<!-- Login Logo Image -->
+					<div class="Login__Logo-Container">
+						<img class="Login_logo_image" src="img_login_logo.jpg"/>
+					</div>
+				<!-- Login Form -->
+					<form class="Login__Form" method="POST" action="feed.html">
+						<input type="text" 
+						       name="username" 
+						       placeholder="User Name" 
+						       required class="Login__Input" />			
+						<div class="u-relative-container">	
+							<input type="Password" 
+							       name="password"
+							       placeholder="Password" 
+							       required class="Login__Input" />
+							<a class="Login__Form-Link" href="http://www.google.com">Forgot?</a>
+						</div>
+						<input type="submit" value="Log In" class="Login__Input-Button" />
+					</form>
+				<!-- Login Devider -->
+					<span class="Login__Form-Divider">or</span>
+					<a href="http://www.facebook.com" class="Login__Fb-Link">
+						<i class="fa fa-facebook-official" aria-hidden="true"></i>
+						Log In with Facebook
+					</a>
+				</div>
+	<!-- Don't have an account? -->
+				<div class="Login__Section Login__Section-donthave">
+					<span class="Login__Text">Don't have an account?</span>
+					<a href="#" class="Login__Link">Sign Up</a>
+				</div>
+	<!-- Get the App.	 -->
+				<span class="Login__Text">Get the app.</span>
+				<DIV class="Login__App-stores">
+					<img class="Login__App-store" src="LOGIN_AND.PNG"/>
+					<img class="Login__App-store" src="LOGIN_IOS.PNG"/>
+					<img class="Login__App-store" src="LOGIN_MS.PNG"/>
 				</DIV>
-			</div>
-		</section>
-	</main>
-	</body>
-	<footer>
-		<nav class="Navigation">
-			<ul class="Navigation_list">
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">ABOUT US</a>
-				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">SUPPORT</a>
-				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">BLOG</a>
-				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">PRESS</a>
-				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">API</a>
-				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">JOBS</a>
-				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">PRIVACY</a>
-				</li>
-			</ul>
-		</nav>
-		<SPAN class="Copyright">@2017 Instaclone</SPAN>
-	</footer>
+			</section>
+		</main>
+
+        <footer class="Footer">
+            <nav class="Footer__Navigation">
+                <ul class="Navigation__List">
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            About us
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Support
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Press
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            API
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Jobs
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Privacy
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Terms
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Directory
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Language
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <span class="Footer__Copyright">© 2017 Instaclone</span>
+        </footer>
+    </body>
 </html>
