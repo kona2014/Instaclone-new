@@ -3,27 +3,28 @@
 	<head>
 		<title>Instaclone | Feed</title>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="Styles/root.css">
 	</head>
 
 	<body>
 	<nav class="Navigation">
-		<div class="Navigation_column">
+		<div class="Navigation__column">
 			<a href="feed.html" class="Navigation__Logo-Container">
-				<img src="img_logo.png" class="Navigation_Logo">
+				<img src="img_logo.png" class="Navigation__Logo">
 			</a>
 		</div>
-		<div class="Navigation_column">
+		<div class="Navigation__column">
 			<i class="fa fa-search"></i>
 			<input type="text" name="search" placeholder="search">
 		</div>
 		<div>
-			<a href="explorer.html" class="Navigation_Logo">
+			<a href="explorer.html" class="Navigation__Logo">
 				<i class="fa fa-compass"></i>
 			</a>
-			<a href="#" class="Navigation_Logo">
+			<a href="#" class="Navigation__Logo">
 				<i class="fa fa-heart-o"></i>
 			</a>
-			<a href="profile.html" class="Navigation_Logo">
+			<a href="profile.html" class="Navigation__Logo">
 				<i class="fa fa-user"></i>
 			</a>
 		</div>
@@ -31,24 +32,59 @@
 
 	<main class="Feed">
 		<article class="Feed_Photo">
-			<!-- Header ------------------------------------------>
-			<<a href="#">
-				<header class="Feed_Photo-Header">
-				<img class="Feed_Photo-Header-Image" src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/16908087_177689149400531_7138338424519393280_a.jpg">
-				</header>
-			</a>
-			<a class="Feed_Photo-Header" title="tnrud2865">tnrud2865</a>
-			<!-- Main ------------------------------------------>
+			<!-- Header -->
+			<header class="Feed_Photo-Header">
+				<a href="https://www.instagram.com/tnrud2865">
+					<img class="Feed_Photo-Header-Image profile_image" src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/16908087_177689149400531_7138338424519393280_a.jpg">
+				</a>
+				<div class="Feed_Photo-ID">
+					<a  class="Feed_Photo-Header" 
+				   	    title="tnrud2865" 
+				        href="https://www.instagram.com/tnrud2865">
+				    	tnrud2865
+					</a>
+				</div>
+				<div class="Feed_Photo-Location">
+				    Location A
+				</div>
+			</header>
+			<!-- Main -->
 			<div class="Feed_Photo-Main">
-<img alt="형제샷ㅋㅋㅋㅋ
-#눈떠잇을때정상적으로찍힌 #형제샷 #강비니와지누
-#15개월 #2개월 #기요미둘 #이삐들😆 
-#사랑해💕 #100일의기적을보여줘 
-#형제룩같지만사실강비니옷 #아빠가잘못입혓어🤣" class="Feed_Photo-Main" src="https://scontent.cdninstagram.com/t51.2885-15/e35/19050955_268603386880014_9076775113596076032_n.jpg" >
+				<img class="Feed_Photo-Main Feed_Image" src="https://scontent.cdninstagram.com/t51.2885-15/e35/19050955_268603386880014_9076775113596076032_n.jpg" >
 			</div>
-			<!-- Information ------------------------------------------>
+			<!-- Information -->
 			<div class="Feed_Photo-Info">
-				
+<!-- Icon(Like&Comment) -->
+				<div>
+					<i class="fa fa-heart-o"></i><i class="fa fa-comment-o"></i>
+				</div>
+<!-- Comment List -->
+				<ul class="Feed__Photo-comment">
+					<li>
+						<span>
+							<b>KONA2014</b> So Cute !!!
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>KONA2014</b> My Lovely Nephews !
+						</span>
+					</li>
+				</ul>
+<!-- Time Lapse -->
+				<span>
+					2 Hours ago
+				</span>
+<!-- Add a comments -->
+				<div>
+					<textarea aria-label="Add a comment ..." 
+					          class="Feed_Photo-Comment" 
+					          placeholder="Add a comment ..." 
+					          cols="60" 
+					          rows="2" >
+					</textarea>
+					<i class="fa fa-ellipsis-h"></i>
+				</div>
 			</div>
 		</article>	
 	</main>
@@ -57,26 +93,26 @@
 	<footer>
 		<nav class="Navigation">
 			<ul class="Navigation_list">
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">ABOUT US</a>
+				<li class="Navigation__item">
+					<a href="#" class="Navigation__link">ABOUT US</a>
 				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">SUPPORT</a>
+				<li class="Navigation__item">
+					<a href="#" class="Navigation__link">SUPPORT</a>
 				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">BLOG</a>
+				<li class="Navigation__item">
+					<a href="#" class="Navigation__link">BLOG</a>
 				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">PRESS</a>
+				<li class="Navigation__item">
+					<a href="#" class="Navigation__link">PRESS</a>
 				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">API</a>
+				<li class="Navigation__item">
+					<a href="#" class="Navigation__link">API</a>
 				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">JOBS</a>
+				<li class="Navigation__item">
+					<a href="#" class="Navigation__link">JOBS</a>
 				</li>
-				<li class="Navigation_item">
-					<a href="#" class="Navigation_link">PRIVACY</a>
+				<li class="Navigation__item">
+					<a href="#" class="Navigation__link">PRIVACY</a>
 				</li>
 			</ul>
 		</nav>

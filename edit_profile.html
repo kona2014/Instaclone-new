@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Instaclone | Edit Profile</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="Styles/root.css">
+	</head>
+
+	<body>
+	<nav class="Navigation">
+		<div class="Navigation_column">
+			<a href="feed.html" class="Navigation__Logo-Container">
+				<img src="img_logo.png" class="Navigation_Logo">
+			</a>
+		</div>
+		<div class="Navigation_column">
+			<i class="fa fa-search"></i>
+			<input type="text" name="search" placeholder="search">
+		</div>
+		<div>
+			<a href="explorer.html" class="Navigation_Logo">
+				<i class="fa fa-compass"></i>
+			</a>
+			<a href="#" class="Navigation_Logo">
+				<i class="fa fa-heart-o"></i>
+			</a>
+			<a href="profile.html" class="Navigation_Logo">
+				<i class="fa fa-user"></i>
+			</a>
+		</div>
+	</nav>
+
+	<main class="EditProfile">
+<!-- Header Profile : Photo & Name -->
+    	<header class="Edit-Profile__Header">
+			<div class="Edit-Profile__Avatar-Container">
+            	<img src="profile_img.jpg" class="Edit-Profile__Avatar">
+            </div>
+            <h1 class="Edit-Profile__Title">KONA2014</h1>
+        </header>
+<!-- Main Information -->        
+        <form action="" class="Edit-Profile__Form">
+<!-- Name -->        
+        	<div class="Edit-Profile__Form-Row">
+            	<div class="Edit-Profile__Label-Container">
+                	<label for="name" class="Edit-Profile__Label">Name</label>
+            	</div>
+            	<div class="Edit-Profile__Input-Container">
+            		<input id="name" type="text" class="Edit-Profile__Input">
+            	</div>
+            </div>
+<!-- Username -->        
+            <div class="Edit-Profile__Form-Row">
+            	<div class="Edit-Profile__Label-Container">
+                	<label for="username" class="Edit-Profile__Label">Username</label>
+                </div>
+                <div class="Edit-Profile__Input-Container">
+                	<input id="username" type="text" class="Edit-Profile__Input">
+                </div>
+            </div>
+<!-- Website -->        
+            <div class="Edit-Profile__Form-Row">
+            	<div class="Edit-Profile__Label-Container">
+                	<label for="website" class="Edit-Profile__Label">Website</label>
+                </div>
+                <div class="Edit-Profile__Input-Container">
+                	<input id="website" type="url" class="Edit-Profile__Input">
+                </div>
+            </div>
+<!-- Bio -->        
+            <div class="Edit-Profile__Form-Row">
+            	<div class="Edit-Profile__Label-Container">
+                	<label for="bio" class="Edit-Profile__Label">Bio</label>
+                </div>
+                <div class="Edit-Profile__Input-Container">
+                	<textarea id="bio" cols="30" rows="10" class="Edit-Profile__Textarea"></textarea>
+                </div>
+            </div>
+            
+<!-- Private Information -->
+            <span class="Edit-Profile__Divider">Private Information</span>
+            
+<!-- E-Mail -->            
+            <div class="Edit-Profile__Form-Row">
+            	<div class="Edit-Profile__Label-Container">
+                	<label for="email" class="Edit-Profile__Label">Email</label>
+                </div>
+                <div class="Edit-Profile__Input-Container">
+                	<input id="email" type="email" class="Edit-Profile__Input">
+                </div>
+            </div>
+<!-- Phone Number -->
+            <div class="Edit-Profile__Form-Row">
+            	<div class="Edit-Profile__Label-Container">
+                	<label for="phone" class="Edit-Profile__Label">Phone Number</label>
+                </div>
+                <div class="Edit-Profile__Input-Container">
+                	<input id="phone" type="email" class="Edit-Profile__Input">
+                </div>
+            </div>
+<!-- Gender -->            
+            <div class="Edit-Profile__Form-Row">
+            	<div class="Edit-Profile__Label-Container">
+                	<label for="gender" class="Edit-Profile__Label">Gender</label>
+                </div>
+                <div class="Edit-Profile__Input-Container">
+                	<select id="gender" class="Edit-Profile__Input">
+                    	<option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="not-specified">Not specified</option>
+                    </select>
+                </div>
+            </div>
+<!-- Similar Account Suggestions -->            
+            <div class="Edit-Profile__Form-Row">
+            	<div class="Edit-Profile__Label-Container">
+                	<span class="Edit-Profile__Label">Similar Account Suggestions</span>
+                </div>
+                <div class="Edit-Profile__Input-Container">
+                	<input id="similar" type="checkbox" checked />
+                    <label for="similar">Include your account when recommending similar accounts people might want to follow.</label>
+                    <a class="Edit-Profile__Link" href="#">[?]</a>
+                </div>
+            </div>
+<!-- Submit -->            
+            <div class="Edit-Profile__Form-Row">
+            	<div class="Edit-Profile__Label-Container">
+                </div>
+                <div class="Edit-Profile__Input-Container">
+                	<input type="submit" value="Submit" />
+                    <a href="#" class="Edit-Profile__Link">Temporarily disable my account</a>
+                </div>
+            </div>
+    	</form>
+	</main>
+
+	</body>
+	<footer>
+		<nav class="Navigation">
+			<ul class="Navigation_list">
+				<li class="Navigation_item">
+					<a href="#" class="Navigation_link">ABOUT US</a>
+				</li>
+				<li class="Navigation_item">
+					<a href="#" class="Navigation_link">SUPPORT</a>
+				</li>
+				<li class="Navigation_item">
+					<a href="#" class="Navigation_link">BLOG</a>
+				</li>
+				<li class="Navigation_item">
+					<a href="#" class="Navigation_link">PRESS</a>
+				</li>
+				<li class="Navigation_item">
+					<a href="#" class="Navigation_link">API</a>
+				</li>
+				<li class="Navigation_item">
+					<a href="#" class="Navigation_link">JOBS</a>
+				</li>
+				<li class="Navigation_item">
+					<a href="#" class="Navigation_link">PRIVACY</a>
+				</li>
+			</ul>
+		</nav>
+		<SPAN class="Copyright">@2017 Instaclone</SPAN>
+	</footer>
+</html>
