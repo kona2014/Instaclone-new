@@ -35,12 +35,14 @@
    		</nav>
 
 	<main class="Feed">
-		<article class="Feed_Photo">
+		<article class="Photo u-content-box">
 			<!-- Header -->
-			<header class="Feed_Photo-Header">
-				<a href="https://www.instagram.com/tnrud2865">
-					<img class="Feed_Photo-Header-Image profile_image" src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/16908087_177689149400531_7138338424519393280_a.jpg">
-				</a>
+			<header class="Photo__Header">
+				<div class="Photo__Avatar-Container">
+					<a href="https://www.instagram.com/tnrud2865">
+						<img class="Photo__Avatar" src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/16908087_177689149400531_7138338424519393280_a.jpg">
+					</a>
+				</div>
 				<div class="Feed_Photo-ID">
 					<a  class="Feed_Photo-Header" 
 				   	    title="tnrud2865" 
@@ -53,42 +55,41 @@
 				</div>
 			</header>
 			<!-- Main -->
-			<div class="Feed_Photo-Main">
-				<img class="Feed_Photo-Main Feed_Image" src="https://scontent.cdninstagram.com/t51.2885-15/e35/19050955_268603386880014_9076775113596076032_n.jpg" >
+			<div class="Photo__Image-Container">
+				<img class="Photo__Image" src="https://scontent.cdninstagram.com/t51.2885-15/e35/19050955_268603386880014_9076775113596076032_n.jpg" />
 			</div>
 			<!-- Information -->
-			<div class="Feed_Photo-Info">
+			<div class="Photo__Information">
 <!-- Icon(Like&Comment) -->
-				<div>
-					<i class="fa fa-heart-o"></i><i class="fa fa-comment-o"></i>
-				</div>
+                <div class="Photo__Actions">
+                    <span class="Photo__Action">
+                        <i class="fa fa-heart-o fa-2x"></i>
+                    </span>
+                    <span class="Photo__Action">
+                        <i class="fa fa-comment-o fa-2x"></i>
+                    </span>
+                </div>
 <!-- Comment List -->
-				<ul class="Feed__Photo-comment">
-					<li>
-						<span>
-							<b>KONA2014</b> So Cute !!!
-						</span>
-					</li>
-					<li>
-						<span>
-							<b>KONA2014</b> My Lovely Nephews !
-						</span>
-					</li>
-				</ul>
+                <span class="Photo__Like-Counter u-fat-text">
+                    1,234 likes
+                </span>
+                <ul class="Photo__Comments">
+                    <li class="Photo__Comment">
+                        <p class="Photo__Comment-Text"><span class="Photo__Comment-Author u-fat-text">KONA2014</span> So Cute !!!</p>
+                    </li>
+                    <li class="Photo__Comment">
+                        <p class="Photo__Comment-Text"><span class="Photo__Comment-Author u-fat-text">KONA2014</span>  My Lovely Nephews !</p>
+                    </li>
+                </ul>
 <!-- Time Lapse -->
-				<span>
-					2 Hours ago
-				</span>
+                <span class="Photo__Date">
+                    2 hours ago
+                </span>
 <!-- Add a comments -->
-				<div>
-					<textarea aria-label="Add a comment ..." 
-					          class="Feed_Photo-Comment" 
-					          placeholder="Add a comment ..." 
-					          cols="60" 
-					          rows="2" >
-					</textarea>
-					<i class="fa fa-ellipsis-h"></i>
-				</div>
+                <div class="Photo__Add-Comment">
+                    <textarea name="comment" placeholder="Add a comment..." class="Photo__Input"></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
 			</div>
 		</article>	
 	</main>

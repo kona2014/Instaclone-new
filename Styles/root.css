@@ -2,5 +2,7 @@
 @import 'reset.css';
 @import 'globals.css';
 @import 'login.css';
-@import 'Navigation.css';
+@import 'feed.css';
+@import 'explore.css';
+@import 'navigation.css';
 @import 'footer.css';

@@ -1,0 +1,66 @@
+.Explore{
+    margin:60px auto;
+}
+
+.Explore__Header{
+    padding:15px 0px 10px 15px;
+    border-bottom:1px solid #e6e6e6;
+}
+
+.Explore__Tilte{
+    text-transform: uppercase;
+    color:#999;
+}
+
+.Explore__User{
+    padding:10px 0px 10px 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.Explore__User-Left{
+    display: flex;
+    align-items:center;
+}
+
+.Explore__Username{
+    display: block;
+}
+
+
+.Explore__Avatar-Container{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right:10px; 	
+}
+.Explore__Avatar{
+    max-width: 100%;
+}
+
+.Explore__Username{
+	margin-bottom: 10px;
+}
+
+.Explore__Full-name{
+	/*margin-top: 10px;*/
+}
+
+.Explore__User-Right{
+	margin-right: 10px;
+}
+
+.Explore__Follow-Btn{
+    background-color: #3897F0;
+    color:white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.Explore__Follow-Btn:focus{
+    border:0;
+}
