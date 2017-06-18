@@ -30,7 +30,8 @@
 
 .Header__Avatar{
     min-width: 105%;
-    animation: 3s linear infinite rotate-icon
+    animation: 3s linear infinite rotate-icon;
+    transition:all .3s ease-in-out;
 }
 
 .Header__Section{
