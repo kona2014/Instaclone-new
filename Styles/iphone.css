@@ -1,25 +1,11 @@
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 414px) {
-    .Navigation{
-        justify-content:center;
-        height: 50px;
-        position: fixed;
-        width: 100%;
-        z-index:999;
-        padding:0;
-    }
-    .Navigation__Column--Search,
-    .Navigation__Column--Icons{
-        display: none;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 320px) 
   and (max-device-width: 739px) {
+    body{
+        padding-top: 50px;
+    }
     .Feed{
-        padding: 0;
+        padding:0;
     }
     .u-content-box{
         width: 100%;
@@ -28,5 +14,28 @@
     }
     .Footer{
         display: none;
+    }
+    .Profile,
+    .Explore{
+        margin:0;
+    }
+    .Navigation{
+        justify-content:space-between;
+        height: 50px;
+        position: fixed;
+        width: 100%;
+        z-index:999;
+        padding:0;
+        top:0;
+        padding:0 10px;
+        box-sizing: border-box;
+    }
+    .Navigation__Column--Search,
+    .Navigation__Column--Icons{
+        display: none;
+    }
+    .MobileMenuTrigger{
+        display: block;
+        color:rgba(0, 0, 0, 0.5);
     }
   }
