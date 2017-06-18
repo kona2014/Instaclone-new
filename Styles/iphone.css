@@ -15,10 +15,10 @@
     .Footer{
         display: none;
     }
-    .Profile,
-    .Explore{
+    .Profile, .Explore{
         margin:0;
     }
+
     .Navigation{
         justify-content:space-between;
         height: 50px;
@@ -30,10 +30,12 @@
         padding:0 10px;
         box-sizing: border-box;
     }
+
     .Navigation__Column--Search,
     .Navigation__Column--Icons{
         display: none;
     }
+    
     .MobileMenuTrigger{
         display: block;
         color:rgba(0, 0, 0, 0.5);
