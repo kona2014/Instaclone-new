@@ -30,6 +30,7 @@
 
 .Header__Avatar{
     min-width: 105%;
+    animation: 3s linear infinite rotate-icon
 }
 
 .Header__Section{
@@ -42,6 +43,18 @@
 
 .Header__Section i{
     cursor: pointer;
+}
+
+@keyframes rotate-icon {
+    from {
+        transform:rotate(0turn)
+    }
+    to{
+        transform:rotate(1turn);
+    }
+}
+
+.Header__Section i{
 }
 
 .Header__Title{
@@ -60,9 +73,7 @@
     color:white;
     background-color:#3897F0;
     border:0;
-    transform:rotate(1turn);
 }
-
 
 
 .Header__Numbers{
