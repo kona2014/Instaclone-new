@@ -18,7 +18,10 @@
     .Profile, .Explore{
         margin:0;
     }
-
+    
+    .Header{
+            flex-direction: column;
+    }
     .Navigation{
         justify-content:space-between;
         height: 50px;
