@@ -15,16 +15,21 @@
 .Header__Column:first-child{
     width:30%;
     display: flex;
-    justify-content:center;
+    padding-left: 50px;
 }
 
 .Header__Column:last-child{
     width: 70%;
 }
 
+.Header__Column-Center{
+    align-content: center;
+    width: 100%;
+}
+
 .Header__Avatar-Container{
-    width: 152px;
-    height: 152px;
+    width: 152px;/*
+    height: 152px;*/
     overflow: hidden;
     border-radius: 50%;
 }
@@ -82,7 +87,6 @@
     display: flex;
     justify-content:space-between;
     width: 80%;
-
 }
 
 .Header__Section:last-child{
@@ -135,4 +139,44 @@
 
 .Pictures__Counter:first-child{
     margin-right: 10px;
+}
+
+.SettingsOverlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top:0;
+}
+
+.SettingsOverlay i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+
+.SettingsOverlay a{
+    display: block;
+    padding: 20px 100px;
+    align-content: center;
+}
+
+.OverlayContainer{
+    /*padding: 20px 0;*/
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    /*opacity: 1;*/
+}
+
+.OverlayContainer a:first-child{
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.OverlayContainer a:hover{
+    background-color: #cfcfcf;
 }

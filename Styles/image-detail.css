@@ -21,8 +21,15 @@
 
 .Image-Detail__Column-Right{
     padding:0px 20px; /* 좌우 20픽셀 여백 */
+<<<<<<< HEAD
 }
+=======
 
+>>>>>>> master
+
+
+}
+  
 .Image-Detail__Header{
     padding: 15px 0;
     display: flex;
